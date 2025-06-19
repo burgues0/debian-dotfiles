@@ -1,0 +1,61 @@
+---
+default:
+  flatpak:
+    zen:
+      title: "Zen Browser"
+      cmd: "app.zen_browser.zen"
+    joplin:
+      title: "Joplin"
+      cmd: "net.cozic.joplin_desktop"
+    anki:
+      title: "Anki"
+      cmd: "net.ankiweb.Anki"
+    peazip:
+      title: "Peazip"
+      cmd: "io.github.peazip.PeaZip"
+    vscodium:
+      title: "VSCodium"
+      cmd: "com.vscodium.codium"
+    strawberry:
+      title: "Strawberry Music Player"
+      cmd: "org.strawberrymusicplayer.strawberry"
+  binaries:
+    cmd: "apt install -y"
+    btop:
+      title: "main sysmon app"
+      cmd: "btop"
+
+optional:
+  flatpak:
+    dbeaver:
+      title: "Dbeaver"
+      cmd: "io.dbeaver.DBeaverCommunity"
+    toolbox:
+      title: "Dev Toolbox"
+      cmd: "me.iepure.devtoolbox"
+    easytag:
+      title: "EasyTag"
+      cmd: "org.gnome.EasyTAG"
+    gimp:
+      title: "GIMP"
+      cmd: "org.gimp.GIMP"
+    filezilla:
+      title: "Filezilla"
+      cmd: "org.filezillaproject.Filezilla"
+    peek:
+      title: "Peek"
+      cmd: "com.uploadedlobster.peek"
+    obs:
+      title: "OBS"
+      cmd: "com.obsproject.Studio"
+    insomnia:
+      title: "Insomnia"
+      cmd: "rest.insomnia.Insomnia"
+    teams:
+      title: "Portal for Teams"
+      cmd: "com.github.IsmaelMartinez.teams_for_linux"
+  binaries:
+  packages:
+    discord:
+      title: "Discord"
+      cmd: "curl -L https://url.teste.com/nome-do-seu-pacote.deb | sudo dpkg -i -"
