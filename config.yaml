@@ -1,6 +1,7 @@
 ---
 default:
-  flatpak:
+  flathub:
+    cmd: "flatpak install flathub"
     zen:
       title: "Zen Browser"
       cmd: "app.zen_browser.zen"
@@ -26,7 +27,8 @@ default:
       cmd: "btop"
 
 optional:
-  flatpak:
+  flathub:
+    cmd: "flatpak install flathub"
     dbeaver:
       title: "Dbeaver"
       cmd: "io.dbeaver.DBeaverCommunity"
@@ -58,4 +60,5 @@ optional:
   packages:
     discord:
       title: "Discord"
-      cmd: "curl -L https://url.teste.com/nome-do-seu-pacote.deb | sudo dpkg -i -"
+      cmd: "curl -L https://discord.com/api/\
+            download?platform=linux | sudo dpkg -i -"
